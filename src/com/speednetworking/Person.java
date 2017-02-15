@@ -13,6 +13,7 @@ public class Person {
     private String email;
     private String linkedin;
 
+
 //    To Do: Add data sanitization options for user input
 
 //    To Do: fill out the rest of the characteristics and add to person method
@@ -37,6 +38,7 @@ public class Person {
         String result = first + " " + last + " " + jobtitle + " " + company + " " + email + " " + linkedin;
         return result;
     }
+
 
     public String getFirst() {
         return first;

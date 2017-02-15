@@ -19,7 +19,10 @@ public class Main {
 //        Test Event Class
         Event event1 = new Event(1, "October 2nd 1986");
         System.out.println(event1.eventToString());
-//        Test RSVP method
+
+
+
+        //        Test RSVP method
 
     }
 }
